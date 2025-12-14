@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Data Globe</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+      #ui-container {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
+        background-color: rgba(75, 75, 75, 0.3);
+        padding: 15px;
+        border-radius: 10px;
+        color: white;
+        max-width: 300px;
+      }
+
+      h1 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      h2 {
+        margin: 0 0 15px 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        opacity: 0.9;
+      }
+
+      .control-group {
+        margin-bottom: 10px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        border-radius: 4px;
+        border: none;
+        width: 60%;
+      }
+
+      button {
+        padding: 5px 10px;
+        border-radius: 4px;
+        border: none;
+        background-color: #fff;
+        color: rgba(75, 75, 75);
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: rgb(225, 225, 225);
+      }
+
+      input[type="file"] {
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ui-container">
+      <h1>3D Data Visualization Globe</h1>
+      <h2 id="file-label">Now Visualizing: Sample Data</h2>
+      <div class="control-group">
+        <label>1. Upload CSV:</label><br />
+        <input type="file" id="csv-file" accept=".csv" />
+      </div>
+
+      <div class="control-group">
+        <label>2. Filter by Column:</label><br />
+        <input type="text" id="keyword-input" placeholder="e.g 2025" />
+        <button id="visualize-btn">Visualize</button>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
