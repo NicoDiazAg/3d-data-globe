@@ -1,7 +1,8 @@
 # 3D Data Globe
 
-A Three.js visualization tool that maps CSV data onto a 3D interactive globe. Users can upload custom datasets, filter by specific columns, and visualize values through a D3 color scale mapped to the spherical surface. 
-The main purpose of this project is to demonstrate the integration of libraries and techniques, in this case D3 and Three.js, to explore 3D graphics and data visualization.
+A Three.js visualization tool that maps CSV data onto a 3D interactive globe. Users can upload custom datasets, filter by specific columns, and visualize values through a D3 color scale mapped to the spherical surface. The main purpose of this project is to demonstrate the integration of libraries and techniques, in this case D3 and Three.js, to explore 3D graphics and data visualization.
+
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/7206cd8a-bb8a-49b4-9669-6260f4717311" />
 
 # Features
 
