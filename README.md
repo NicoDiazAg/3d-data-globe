@@ -2,7 +2,7 @@
 
 This is a Three.js + D3.js data visualization tool that maps CSV data onto a 3D interactive globe. Users can upload datasets, filter by specific columns, and visualize frequency values through a color scale mapped to countries' surfaces on a sphere. The purpose of this application is to demonstrate the integration of both libraries and different techniques to explore 3D graphics and data visualization.
 
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/7206cd8a-bb8a-49b4-9669-6260f4717311" />
+<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/041350c8-6a4a-4f64-a469-927464ba5217" />
 
 # Features
 
