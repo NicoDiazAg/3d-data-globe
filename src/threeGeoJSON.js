@@ -279,8 +279,10 @@ export function drawThreeGeo({
       color: options.color,
       linewidth: 2,
       fog: true,
+      depthWrite: false,
     });
     const line = new Line2(lineGeo, lineMaterial);
+    line.renderOrder = 1;
     line.frustumCulled = false;
     line.computeLineDistances();
     line.userData = {
